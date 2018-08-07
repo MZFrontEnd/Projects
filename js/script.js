@@ -1,4 +1,4 @@
-var loadSpinner = function (value, object) {
+var loadSpinner = function (value) {
     var spinner = value;
     document.querySelector('main section').style.display = 'none';
     document.querySelector('main').classList.add(spinner);
